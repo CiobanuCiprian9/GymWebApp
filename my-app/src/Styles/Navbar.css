@@ -20,6 +20,7 @@
   list-style: none;
   margin: 0;
   padding: 0;
+  padding-right: 43%;
 }
 
 .navbar-links a {
@@ -34,7 +35,7 @@
 }
   
   
-.login-button {
+/* .login-button {
   background-color: #0078ff;
   color: white;
   border: none;
@@ -43,7 +44,7 @@
   font-size: 16px;
   cursor: pointer;
   transition: background-color 0.3s;
-}
+} */
   
 .login-button:hover {
   background-color: #005bb5;
