@@ -1,0 +1,13 @@
+body {
+    background: linear-gradient(
+        to top,
+        #1a1a2e, 
+        #1e2a38, 
+        #22334a, 
+        #263b5c, 
+        #2a446e
+    );
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  

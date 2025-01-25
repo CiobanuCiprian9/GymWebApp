@@ -1,5 +1,5 @@
 const API_URL = 'https://exercisedb.p.rapidapi.com';
-const API_KEY = '0bf50f22d4mshdd80b7733b1137ap1846f4jsn8137b19ba1a9';
+const API_KEY = process.env.REACT_APP_EXERCISESDB_API_KEY;
 
 export const fetchCategories = async () => {
     try {
