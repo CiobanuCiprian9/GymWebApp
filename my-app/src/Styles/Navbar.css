@@ -1,58 +1,64 @@
 /* Stilizare pentru bara de sus */
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 20px;
-    height: 60px;
-    background-color: #1f1f1f;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-    color: white;
-    position: fixed;
-    top: 0;
-    width: 98%;
-    z-index: 1000;
-  }
-  
- 
-  .navbar-logo {
-    font-size: 24px;
-    font-weight: bold;
-  }
-  
- 
-  .navbar-links {
-    display: flex;
-    gap: 20px;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .navbar-links a {
-    color: white;
-    text-decoration: none;
-    font-size: 16px;
-    transition: color 0.3s;
-  }
-  
-  .navbar-links a:hover {
-    color: #00bfff;
-  }
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  height: 60px;
+  background-color: #1f1f1f;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  color: white;
+  position: fixed;
+  top: 0;
+  width: 98%;
+  z-index: 1000;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+.navbar-links a:hover {
+  color: #00bfff;
+}
   
   
-  .login-button {
-    background-color: #0078ff;
-    color: white;
-    border: none;
-    padding: 8px 16px;
-    border-radius: 4px;
-    font-size: 16px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-  }
+.login-button {
+  background-color: #0078ff;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
   
-  .login-button:hover {
-    background-color: #005bb5;
-  }
+.login-button:hover {
+  background-color: #005bb5;
+}
   
+
+.navbar-logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.navbar-logo:hover {
+  color: #00bfff;
+}

@@ -5,10 +5,9 @@ import { Link } from "react-router-dom";
 function NavBar() {
     return (
         <nav className="navbar">
-            <div className="navbar-logo">GymWebApp</div>
+            {/* <div className="navbar-logo">GymWebApp</div> */}
+            <Link to="/" className="navbar-logo">GymWebApp</Link>
             <ul className="navbar-links">
-                {/* <li><a href="workout-plans">Workout Plans</a></li>
-                <li><a href="exercises">Exercises</a></li> */}
                 <li><Link to="/workout-plans">Workout Plans</Link></li>
                 <li><Link to="/exercises">Exercises</Link></li>
             </ul>
